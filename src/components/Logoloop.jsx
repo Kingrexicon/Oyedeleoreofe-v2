@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoLoop from './logo/LogoLoop';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiGit, SiMongodb, SiMongoose, SiExpress, SiPostman, SiNodedotjs, SiGithub, SiVscodium, SiGithubcopilot } from 'react-icons/si';
+import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiGit, SiMongodb, SiMongoose, SiExpress, SiPostman, SiNodedotjs, SiGithub, SiVscodium, SiGithubcopilot, SiRender } from 'react-icons/si';
 
 
 const Logoloop = () => {
@@ -22,6 +22,7 @@ const techLogos = [
   { node: <SiPostman />, title: "Postman", href: "https://www.postman.com/" },
   { node: <SiNodedotjs />, title: "Nodejs", href: "https://nodejs.org/" },
   { node: <SiGithubcopilot />, title: "copilot", href: "https://github.com/copilot" },
+   { node: <SiRender />, title: "render", href: "https://dashboard.render.com/" },
   
 
 
@@ -39,11 +40,25 @@ const techLogos = [
 
 
   return (
-    <div style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
+
+    <div className='flex flex-col my-4  gap-4' style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
+      <h1 className="text-4xl mx-3 font-bold">Skills & Technologies</h1>
       <LogoLoop
         logos={techLogos}
         speed={120}
         direction="left"
+        logoHeight={48}
+        gap={40}
+        pauseOnHover
+        scaleOnHover
+        fadeOut
+        fadeOutColor="#ffffff"
+        ariaLabel="Technology partners"
+      />
+        <LogoLoop
+        logos={techLogos}
+        speed={120}
+        direction="right"
         logoHeight={48}
         gap={40}
         pauseOnHover

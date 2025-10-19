@@ -3,7 +3,7 @@ import Profile from "./Profile";
 
 const Hero = () => {
 	return (
-		<div className="hero bg-base-200 min-h-screen">
+		<div className="hero bg-base-200 min-h-screen my-4">
 			<div className="hero-content flex-col lg:flex-row-reverse">
 				<Profile />
 				<div>

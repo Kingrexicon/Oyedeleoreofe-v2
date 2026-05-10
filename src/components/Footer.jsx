@@ -60,6 +60,14 @@ const Footer = () => {
 						<FaPassport className="w-6 h-6" />
 					</a>
 					<a href="https://oyedeleoreofe.netlify.app/" className="hover:text-gray-500 text-indigo-400 flex">
+						
+<a href="https://www.f6s.com/member/oyedele-oreofe?follow=1" target="_blank"
+title="Follow Oyedele Oreofe
+on F6S"><img src="https://www.f6s.com/images/f6s-follow-secondary.png"
+border="0" width="78" height="22 "
+alt="Follow Oyedele Oreofe on F6S" style="width: 78px; height: 22px;
+padding: 0px; margin: 0px;" /></a>
+
                     <p>
                         oyedeleoreore-V1
                         </p>
